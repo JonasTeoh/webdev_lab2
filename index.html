@@ -2,41 +2,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Biodata</title>
   <style>
     table {
       border: 1px solid rgb(214, 207, 207);
       border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 80px;
     }
     td {
-      border: 1px solid black;
       padding: 5px;
+      border: 1px solid black;
+      vertical-align: top;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    img {
+      width: 100px;
     }
   </style>
 </head>
 <body>
-  <table style="width: 80%; margin: 0 auto;">
+  <table>
     <tr>
       <td style="width: 250px;">Name</td>
       <td colspan="2">TEOH WEI JUN</td>
-      <td style="width: 100px;"><img src="weijun.jpg" alt="teoh" width="100"></td>
+      <td style="width: 100px;"><img src="weijun.jpg" alt="teoh"></td>
     </tr>
-    <br>
     <tr>
       <td>Date of Birth</td>
       <td colspan="3">29 October 2002</td>
     </tr>
-    <br>
     <tr>
       <td>Religion</td>
       <td colspan="3">Buddha</td>
     </tr>
-    <br>
     <tr>
       <td>Race</td>
       <td colspan="3">Chinese</td>
     </tr>
-    <br>
     <tr>
       <td rowspan="4">Address</td>
       <td style="width: 150px;">Street</td>
@@ -78,13 +84,12 @@
     <tr>
       <td>Personal interest</td>
       <td colspan="3">Swimming, badminton & trekking</td>
-    </tr><tr>
+    </tr>
+    <tr>
       <td>Future plan in 2025</td>
       <td colspan="3">Improve my skill, and become a full stack developer</td>
     </tr>
   </table>
-  
 </body>
 </html>
-
 
